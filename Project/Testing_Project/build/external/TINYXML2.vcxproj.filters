@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\tinyxml2\src\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\tinyxml2\include\tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0A1F7AD6-6530-3FFE-A323-A2E49032D837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{998600A1-7DAB-343E-AC15-9B13AFE0B7EC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

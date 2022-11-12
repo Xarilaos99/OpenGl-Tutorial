@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\glew-1.13.0\src\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{998600A1-7DAB-343E-AC15-9B13AFE0B7EC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

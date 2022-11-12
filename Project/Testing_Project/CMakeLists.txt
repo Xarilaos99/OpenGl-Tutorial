@@ -94,8 +94,8 @@ add_definitions(
 
 ###############################################################################
 # Mycode
-add_executable(mycode1
-  Mycode/lab.cpp
+add_executable(mycode
+  Mycode/mycode.cpp
 
   common/util.cpp
   common/util.h
@@ -111,18 +111,18 @@ add_executable(mycode1
   Mycode/simple.fragmentshader
   Mycode/transformation.vertexshader
   )
-target_link_libraries(Mycode
+target_link_libraries(mycode
   ${ALL_LIBS}
   )
 # Xcode and Visual working directories
-set_target_properties(Mycode
+set_target_properties(mycode
   PROPERTIES
   XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR "${CMAKE_CURRENT_SOURCE_DIR}/Mycode/"
   PROJECT_LABEL "Testing Program"
   FOLDER "Exercise"
   )
-create_target_launcher(Mycode WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Mycode/")
-create_default_target_launcher(Mycode WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Mycode/")
+create_target_launcher(mycode WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Mycode/")
+create_default_target_launcher(mycode WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Mycode/")
 
 ###############################################################################
 
@@ -135,7 +135,7 @@ SOURCE_GROUP(obj REGULAR_EXPRESSION ".*/.*obj$" )
 if (NOT ${CMAKE_GENERATOR} MATCHES "Xcode" )
 
   add_custom_command(
-    TARGET Mycode POST_BUILD
+    TARGET mycode POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy "${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_CFG_INTDIR}/Mycode${CMAKE_EXECUTABLE_SUFFIX}" "${CMAKE_CURRENT_SOURCE_DIR}/Mycode/"
     )
     

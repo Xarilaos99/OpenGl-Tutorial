@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/external/glfw-3.2.1/CMake/modules/FindVulkan.cmake
+C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/external/glfw-3.2.1/CMakeLists.txt
+C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/external/glfw-3.2.1/src/glfw3.pc.in
+C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/external/glfw-3.2.1/src/glfw3Config.cmake.in
+C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/external/glfw-3.2.1/src/glfw_config.h.in
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/CheckLibraryExists.cmake
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindPackageMessage.cmake
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindThreads.cmake
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake

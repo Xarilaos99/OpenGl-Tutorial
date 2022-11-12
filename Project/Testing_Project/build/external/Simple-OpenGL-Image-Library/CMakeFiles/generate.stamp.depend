@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/external/Simple-OpenGL-Image-Library/CMakeLists.txt
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindOpenGL.cmake
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/chxar/Downloads/cmake-3.23.0-windows-x86_64/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindPackageMessage.cmake
