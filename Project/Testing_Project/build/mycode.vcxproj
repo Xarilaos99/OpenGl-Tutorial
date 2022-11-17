@@ -115,7 +115,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 C:\Users\chxar\Downloads\cmake-3.23.0-windows-x86_64\cmake-3.23.0-windows-x86_64\bin\cmake.exe -E copy C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/build/$(Configuration)/Mycode.exe C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/Mycode/
 if %errorlevel% neq 0 goto :cmEnd
@@ -171,7 +172,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 C:\Users\chxar\Downloads\cmake-3.23.0-windows-x86_64\cmake-3.23.0-windows-x86_64\bin\cmake.exe -E copy C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/build/$(Configuration)/Mycode.exe C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/Mycode/
 if %errorlevel% neq 0 goto :cmEnd
@@ -227,7 +229,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 C:\Users\chxar\Downloads\cmake-3.23.0-windows-x86_64\cmake-3.23.0-windows-x86_64\bin\cmake.exe -E copy C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/build/$(Configuration)/Mycode.exe C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/Mycode/
 if %errorlevel% neq 0 goto :cmEnd
@@ -282,7 +285,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 C:\Users\chxar\Downloads\cmake-3.23.0-windows-x86_64\cmake-3.23.0-windows-x86_64\bin\cmake.exe -E copy C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/build/$(Configuration)/Mycode.exe C:/Programming/Grafika/OpenGl_Tutorial/OpenGl-Tutorial/Xarilaos99/OpenGl-Tutorial/Project/Testing_Project/Mycode/
 if %errorlevel% neq 0 goto :cmEnd
@@ -365,8 +369,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\Mycode\mycode.cpp" />
+    <ClCompile Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\Mycode\mycode.cpp">
+      <AdditionalUsingDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\glfw-3.2.1\include\GLFW;C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\glm-0.9.7.1;C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\glew-1.13.0\include;C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\Simple-OpenGL-Image-Library\include;C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\tinyxml2\include;C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\tinyobjloader\include;C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\.;C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\external\glfw-3.2.1\include;%(AdditionalIncludeDirectories);C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\build</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\common\util.cpp" />
+    <ClCompile Include="function.cpp">
+      <AdditionalUsingDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\build</AdditionalUsingDirectories>
+    </ClCompile>
     <ClInclude Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\common\util.h" />
     <ClCompile Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\common\shader.cpp" />
     <ClInclude Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\common\shader.h" />
@@ -376,6 +387,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\common\model.h" />
     <ClCompile Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\common\texture.cpp" />
     <ClInclude Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\common\texture.h" />
+    <ClInclude Include="functions.h" />
     <None Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\Mycode\simple.fragmentshader">
     </None>
     <None Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\Mycode\transformation.vertexshader">

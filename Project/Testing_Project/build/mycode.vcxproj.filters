@@ -19,6 +19,9 @@
     <ClCompile Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\common\texture.cpp">
       <Filter>common</Filter>
     </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\common\util.h">
@@ -35,6 +38,9 @@
     </ClInclude>
     <ClInclude Include="C:\Programming\Grafika\OpenGl_Tutorial\OpenGl-Tutorial\Xarilaos99\OpenGl-Tutorial\Project\Testing_Project\common\texture.h">
       <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
